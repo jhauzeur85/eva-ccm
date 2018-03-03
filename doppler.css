@@ -1,0 +1,94 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label {
+    display:block;
+    margin-top:10px;
+    text-align: left;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #000;
+    font-family:Arial;
+    font-size: 12px;
+}
+form {
+    margin:0 auto;
+    width:500px;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:700px) {
+    form {
+        width: 100%;
+    }
+}
+ 
+input, textarea {
+    width:100%;
+    height:auto;
+    background:#fff;
+    /*border:2px solid #f6f6f6;*/
+    padding:10px;
+    margin-top:5px;
+    font-size:2rem;
+    color:#000;
+    text-align: center;
+}
+ 
+#submit {
+    width:auto;
+    height:50px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: #FFD40D;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bg06 {
+    background-color: rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+#nombre, #email, #telefono, #pais, #mensaje
+{
+    background-color: transparent;
+    color: #fff;
+    text-align: left;
+}
+
+#arial
+{
+    font-family: arial;
+    font-weight: bolder;
+    color: #fff;
+}
+
+#contacten
+{
+    letter-spacing: 1.5px;
+    color: #FFD40D;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+
+.white
+{
+    color: #fff;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#fotofaltante
+{
+    background-image: url(img/section-03-bg.jpg);
+    background-size: cover;
+    background-position: top;
+}
